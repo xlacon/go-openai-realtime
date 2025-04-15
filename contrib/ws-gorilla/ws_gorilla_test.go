@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
-	gorilla "github.com/WqyJh/go-openai-realtime/contrib/ws-gorilla"
-	test "github.com/WqyJh/go-openai-realtime/test"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/require"
+	openairt "github.com/xlacon/go-openai-realtime"
+	gorilla "github.com/xlacon/go-openai-realtime/contrib/ws-gorilla"
+	test "github.com/xlacon/go-openai-realtime/test"
 )
 
 func TestWebSocket(t *testing.T) {

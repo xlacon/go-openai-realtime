@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
 	"github.com/sashabaranov/go-openai"
 	"github.com/sashabaranov/go-openai/jsonschema"
 	"github.com/stretchr/testify/require"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 func TestSessionUpdateEvent(t *testing.T) {

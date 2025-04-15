@@ -1,4 +1,4 @@
-module github.com/WqyJh/go-openai-realtime
+module github.com/xlacon/go-openai-realtime
 
 go 1.19
 

@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/WqyJh/go-openai-realtime/examples/voice/pcm"
 	"github.com/faiface/beep"
 	"github.com/faiface/beep/speaker"
+	"github.com/xlacon/go-openai-realtime/examples/voice/pcm"
 )
 
 func main() {

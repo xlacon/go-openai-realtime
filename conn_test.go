@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
 	"github.com/stretchr/testify/require"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 type mockDialer struct {

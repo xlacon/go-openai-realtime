@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
 	"github.com/gorilla/websocket"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 // WebSocketOptions is the options for WebSocketConn.

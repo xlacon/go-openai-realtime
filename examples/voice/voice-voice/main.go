@@ -10,13 +10,13 @@ import (
 	"os"
 	"time"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
-	"github.com/WqyJh/go-openai-realtime/examples/voice/pcm"
-	"github.com/WqyJh/go-openai-realtime/examples/voice/recorder"
 	"github.com/faiface/beep"
 	"github.com/faiface/beep/speaker"
 	"github.com/gordonklaus/portaudio"
 	"github.com/sashabaranov/go-openai"
+	openairt "github.com/xlacon/go-openai-realtime"
+	"github.com/xlacon/go-openai-realtime/examples/voice/pcm"
+	"github.com/xlacon/go-openai-realtime/examples/voice/recorder"
 )
 
 func main() {

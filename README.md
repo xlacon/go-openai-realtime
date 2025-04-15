@@ -1,7 +1,7 @@
 # OpenAI Realtime API SDK for Golang
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/WqyJh/go-openai-realtime.svg)](https://pkg.go.dev/github.com/WqyJh/go-openai-realtime)
-[![Go Report Card](https://goreportcard.com/badge/github.com/WqyJh/go-openai-realtime)](https://goreportcard.com/report/github.com/WqyJh/go-openai-realtime)
+[![Go Reference](https://pkg.go.dev/badge/github.com/xlacon/go-openai-realtime.svg)](https://pkg.go.dev/github.com/xlacon/go-openai-realtime)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xlacon/go-openai-realtime)](https://goreportcard.com/report/github.com/xlacon/go-openai-realtime)
 [![codecov](https://codecov.io/gh/WqyJh/go-openai-realtime/branch/main/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/WqyJh/go-openai-realtime)
 
 This library provides unofficial Go clients for [OpenAI Realtime API](https://platform.openai.com/docs/api-reference/realtime). We support all 9 client events and 28 server events.
@@ -13,7 +13,7 @@ This library provides unofficial Go clients for [OpenAI Realtime API](https://pl
 ## Installation
 
 ```bash
-go get github.com/WqyJh/go-openai-realtime
+go get github.com/xlacon/go-openai-realtime
 ```
 
 Currently, go-openai-realtime requires Go version 1.19 or greater.
@@ -32,7 +32,7 @@ import (
 	"log"
 	"os"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 func main() {
@@ -52,8 +52,8 @@ Switch to another websocket dialer [gorilla/websocket](https://github.com/gorill
 
 ```go
 import (
-	openairt "github.com/WqyJh/go-openai-realtime"
-	gorilla "github.com/WqyJh/go-openai-realtime/contrib/ws-gorilla"
+	openairt "github.com/xlacon/go-openai-realtime"
+	gorilla "github.com/xlacon/go-openai-realtime/contrib/ws-gorilla"
 )
 
 func main() {
@@ -74,7 +74,7 @@ func main() {
 ```go
 
 import (
-	openairt "github.com/WqyJh/go-openai-realtime"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 func main() {

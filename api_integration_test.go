@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
 	"github.com/stretchr/testify/require"
+	openairt "github.com/xlacon/go-openai-realtime"
 )
 
 func TestCreateSession(t *testing.T) {

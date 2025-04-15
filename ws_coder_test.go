@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	openairt "github.com/WqyJh/go-openai-realtime"
-	test "github.com/WqyJh/go-openai-realtime/test"
 	"github.com/coder/websocket"
 	"github.com/stretchr/testify/require"
+	openairt "github.com/xlacon/go-openai-realtime"
+	test "github.com/xlacon/go-openai-realtime/test"
 )
 
 func TestCoderWebSocket(t *testing.T) {
