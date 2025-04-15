@@ -123,7 +123,9 @@ const (
 
 type InputAudioTranscription struct {
 	// The model used for transcription.
-	Model string `json:"model"`
+	Model    string `json:"model"`
+	Language string `json:"language"`
+	Prompt   string `json:"prompt"`
 }
 
 type Tool struct {
