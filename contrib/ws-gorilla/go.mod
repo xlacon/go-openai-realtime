@@ -5,9 +5,9 @@ go 1.19
 // replace github.com/xlacon/go-openai-realtime => ../../
 
 require (
-	github.com/xlacon/go-openai-realtime v0.3.5-0.20250208091501-af3079f3fb2b
 	github.com/gorilla/websocket v1.5.3
 	github.com/stretchr/testify v1.9.0
+	github.com/xlacon/go-openai-realtime v0.0.1
 )
 
 require (
